@@ -8,7 +8,7 @@ document.getElementById("uploadForm").addEventListener("submit", async (event) =
     statusDiv.textContent = "Uploading...";
 
     const storageUrl = "https://ops310prj2modutayo.blob.core.windows.net/incoming-files";
-    const sasToken = "sp=r&st=2024-12-08T04:24:21Z&se=2025-12-08T12:24:21Z&sv=2022-11-02&sr=c&sig=lpObn3FR7m1AfzOd2gW9uobwt9XAF03x%2FpSc7mfnfYA%3D"; // Add your SAS token here
+    const sasToken = "sp=racwdli&st=2024-12-08T04:28:39Z&se=2025-12-08T12:28:39Z&sv=2022-11-02&sr=c&sig=13psIE%2BQrYe7x%2FP7u4oihR3L0wT9ZlpYSV84SF4M3Fg%3D"; // Add your SAS token here
     const uploadUrl = `${storageUrl}/${file.name}?${sasToken}`;
 
     try {
